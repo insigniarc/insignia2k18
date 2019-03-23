@@ -1,18 +1,162 @@
+#portfolio-card{
+   width:20vw; 
+    position:fixed;
+    z-index: 15;
+    overflow-x: hidden;
+    padding: 10px;
+    background-color: #DCEFFA;
+    box-shadow: 0px 05px 15px 0px grey;
+    border-radius: 10px;
+    margin: 10px 05vw;
+
+}
+#events{
+   width: 8%;
+   background-color: aliceblue;
+}
+/*countdown timer*/
+#timer-list{
+  display: inline;
+  font-size: 1em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+  
+}
+#countdown-timer{
+   color: #87c0cd;
+   text-align: center;
+   width: 100%;
+   background: rgba(0, 0, 0, 0.5);
+
+}
+/*Contact me*/
+.contact-form{
+   background: #87c0cd;
+   margin-top: 10%;
+   margin-bottom: 5%;
+   width: 100%;
+}
+.contact-form .form-control{
+   border-radius:1rem;
+}
+.contact-image{
+   text-align: center;
+}
+.contact-image img{
+   border-radius: 6rem;
+   width: 11%;
+   margin-top: -3%;
+   transform: rotate(29deg);
+}
+.contact-form form{
+   padding: 14%;
+}
+.contact-form form .row{
+   margin-bottom: -7%;
+}
+.contact-form h3{
+   margin-bottom: 8%;
+   margin-top: -10%;
+   text-align: center;
+   color: #0062cc;
+}
+.contact-form .btnContact {
+   width: 50%;
+   border: none;
+   border-radius: 1rem;
+   padding: 1.5%;
+   background: #dc3545;
+   font-weight: 600;
+   color: #fff;
+   cursor: pointer;
+}
+.btnContactSubmit
+{
+   width: 50%;
+   border-radius: 1rem;
+   padding: 1.5%;
+   color: #fff;
+   background-color: #0062cc;
+   border: none;
+   cursor: pointer;
+}
+.contact-me-social{
+   text-align: center;
+   font-size: 30px;
+   padding: 10px;
+   color: black;
+}
+/*Navbar*/
 #logo-img{
    margin: 0 auto;
    width: 1000px;
 }
 #navbar{
    right: 0px;
-   position: absolute;
+   position: fixed;
    background-color: black;
-   font-size: 20px;
+   font-size: 18px;
    color: #69779b;
+}
+#top-navbar{
+   background-color:black;
+   width: 100%;
+}
+#bottom-navbar{
+   display: none;
+}
+.top {
+   margin: 10px;
+ }
+ b {
+   display: table;
+   border: 3vmin solid;
+   border-radius: 50%;
+   padding: .5vmin;
+   animation: rotate 30s linear infinite;
+   perspective: 80vmin;
+   border-color: transparent black;
+   transform: rotateX(0deg) rotateY(0deg) rotateZ(20deg);
+ }
+ 
+ @keyframes rotate {
+   to {
+     transform: rotateX(360deg) rotateY(360deg) rotateZ(-340deg);
+   }
+ }
+
+@media only screen and (max-width: 1000px){
+   #bottom-navbar{
+      float: bottom;
+      width: 100%;
+      z-index: 1000;
+      bottom: 0px;
+      text-align: center;
+      padding: 2px;
+      margin: 0px;
+      right: 0px;
+      font-size: 50px;
+      display: table;
+      position: fixed;
+      background-color: #f3f9fb;
+
+   }
+   .fa{
+      color: black;
+      padding: 5%;
+   }
+   .fas{
+      color: black;
+      padding: 5%;
+   }
+   #top-navbar{
+      display: none;
+   }
 }
 /*Stars Animation*/
 .starsHeight {
    background: black;
-   height: 100vh;
    width: 100%;
    overflow: hidden;
 }
