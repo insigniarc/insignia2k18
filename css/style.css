@@ -95,6 +95,10 @@ body{
    #card-body{
     font-size: 40px;  
    }
+   #btn-lg{
+      font-size: 40px;
+      padding: 0px 60px;
+   }
    #bottom-navbar{
       float: bottom;
       width: 100%;
