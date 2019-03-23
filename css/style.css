@@ -54,7 +54,7 @@ body{
    text-align: center;
    width: 100%;
    background: rgba(0, 0, 0, 0.5);
-
+   
 }
 /*Contact me*/
 body{
@@ -65,14 +65,13 @@ body{
    margin: 0 auto;
    width: 1000px;
 }
+
 #navbar{
-   z-index: 20;
-   right: 0px;
-   position: fixed;
-   background-color: black;
-   font-size: 18px;
-   color: #69779b;
+      background-color:black; 
+      width: 100%;
+     
 }
+
 #top-navbar{
    background-color:black;
    width: 100%;
@@ -80,25 +79,6 @@ body{
 #bottom-navbar{
    display: none;
 }
-.top {
-   margin: 10px;
- }
- b {
-   display: table;
-   border: 3vmin solid;
-   border-radius: 50%;
-   padding: .5vmin;
-   animation: rotate 30s linear infinite;
-   perspective: 80vmin;
-   border-color: transparent black;
-   transform: rotateX(0deg) rotateY(0deg) rotateZ(20deg);
- }
- 
- @keyframes rotate {
-   to {
-     transform: rotateX(360deg) rotateY(360deg) rotateZ(-340deg);
-   }
- }
 
 @media only screen and (max-width: 1000px){
    #card-body{

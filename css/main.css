@@ -1,0 +1,46 @@
+/*Navbar*/
+#logo-img{
+    margin: 0 auto;
+    width: 1000px;
+ }
+ #navbar{
+    background-color:black; 
+    width: 100%;
+   
+}
+ 
+ #bottom-navbar{
+    display: none;
+ }
+  
+ @media only screen and (max-width: 1000px){
+    .fa{
+        color: black;
+        padding: 5%;
+     }
+    .fas{
+        color: black;
+        padding: 5%;
+     }
+    #bottom-navbar{
+       float: bottom;
+       width: 100%;
+       z-index: 1000;
+       bottom: 0px;
+       text-align: center;
+       padding: 2px;
+       margin: 0px;
+       right: 0px;
+       font-size: 25px;
+       display: table;
+       position: fixed;
+       background-color: #f3f9fb;
+ 
+    }
+    #top-navbar{
+       display: none;
+    }
+    
+    
+ }
+ 
