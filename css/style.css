@@ -5,11 +5,12 @@
    overflow: hidden;
    background-size: cover;
    background-position: center center;
-   z-index: 1;
+   z-index: -1;
 }
 
 .demo .large-header {
    background: #000000;
+   z-index: -1;
 }
 
 .main-title {
@@ -18,12 +19,16 @@
    padding: 0;
    color: #F9F1E9;
    text-align: center;
-   top: 40%;
+   top: 50%;
    left: 50%;
    -webkit-transform: translate3d(-50%, -50%, 0);
    transform: translate3d(-50%, -50%, 0);
 }
-
+#logo-size{
+   height: 100%;
+   width: 100%;
+   top: 50%;
+}
 .demo .main-title {
    text-transform: uppercase;
    font-size: 4.2em;
@@ -34,8 +39,12 @@
    font-weight: 200;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
    .demo .main-title {
-      font-size: 3em;
+      font-size: 9em;
+   }
+   #logo-size{
+      height: 60vh;
+      width: 100vw;
    }
 }
