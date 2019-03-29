@@ -1,0 +1,30 @@
+#rules{
+    width: 40%;
+    color: white;
+    font-size: 15px;
+  
+    border-radius: 10px;
+    background: rgba(86.3, 93.7, 98, 0.1);
+    margin: 02vw 3vw;
+}
+#form{
+    width: 60%;
+    margin: 05vw auto;
+}
+#back-button{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+@media only screen and (max-width: 1000px){
+    #form{
+        width: 100%;
+        margin: 0vw 0vw;
+        margin-bottom: 20vw; 
+    }
+    #rules{
+        width: 100%;
+        margin: 2vw 0vw;
+        border-radius: 0px;
+    }
+}
